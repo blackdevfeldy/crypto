@@ -2,7 +2,7 @@ import React, { createContext, useContext, useState, useEffect, useCallback } fr
 
 const CryptoPricesContext = createContext(null);
 
-const COIN_IDS = 'realio-network,solana,ripple,ethereum';
+const COIN_IDS = 'realio-network,solana,ripple,ethereum,coredaoorg,manyu-2';
 const COINGECKO_API_URL = `https://api.coingecko.com/api/v3/simple/price?ids=${COIN_IDS}&vs_currencies=usd&include_24hr_change=true`;
 const CACHE_KEY = 'crypto_prices_cache';
 
@@ -11,7 +11,9 @@ const INITIAL_FALLBACK = {
   "realio-network": { "usd": 1.25,    "usd_24h_change": 1.20 },
   "solana":         { "usd": 148.50,  "usd_24h_change": 2.13 },
   "ripple":         { "usd": 2.28,    "usd_24h_change": -0.45 },
-  "ethereum":       { "usd": 2450.00, "usd_24h_change": 1.05 }
+  "ethereum":       { "usd": 2450.00, "usd_24h_change": 1.05 },
+  "coredaoorg":     { "usd": 0.95,          "usd_24h_change": 2.13 },
+  "manyu-2":        { "usd": 0.000000003265, "usd_24h_change": -0.025 },
 };
 
 export function CryptoPricesProvider({ children }) {

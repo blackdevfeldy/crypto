@@ -3,12 +3,16 @@ import solanaLogo   from '../assets/Solana_logo.png';
 import ethereumLogo from '../assets/ethereum-logo.png';
 import xrpLogo      from '../assets/xrp-logo.png';
 import rioLogo      from '../assets/rio-logo.svg';
+import coreLogo     from '../assets/core.png';
+import manyuLogo    from '../assets/manyu-logo.jpg';
 
 const logoMap = {
   'solana':          solanaLogo,
   'ethereum':        ethereumLogo,
   'ripple':          xrpLogo,
   'realio-network':  rioLogo,
+  'coredaoorg':      coreLogo,
+  'manyu-2':         manyuLogo,
 };
 
 export default function AssetCard({ asset, priceData, onClick }) {

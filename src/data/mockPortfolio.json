@@ -27,5 +27,19 @@
     "name": "Ethereum",
     "balance": 0.39,
     "icon": "ethereum-logo.png"
+  },
+  {
+    "id": "coredaoorg",
+    "symbol": "CORE",
+    "name": "Core",
+    "balance": 1244.212,
+    "icon": "core.png"
+  },
+  {
+    "id": "manyu-2",
+    "symbol": "MANYU",
+    "name": "Manyu",
+    "balance": 91884000000,
+    "icon": "manyu-logo.jpg"
   }
 ]
