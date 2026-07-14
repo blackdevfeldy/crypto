@@ -1,0 +1,31 @@
+[
+  {
+    "id": "realio-network",
+    "symbol": "RIO",
+    "name": "RIO",
+    "pair": "RIO/USDT",
+    "balance": 1000.118,
+    "icon": "rio-logo.svg"
+  },
+  {
+    "id": "solana",
+    "symbol": "SOL",
+    "name": "Solana",
+    "balance": 6.71,
+    "icon": "Solana_logo.png"
+  },
+  {
+    "id": "ripple",
+    "symbol": "XRP",
+    "name": "XRP",
+    "balance": 121.8875,
+    "icon": "xrp-logo.png"
+  },
+  {
+    "id": "ethereum",
+    "symbol": "ETH",
+    "name": "Ethereum",
+    "balance": 0.39,
+    "icon": "ethereum-logo.png"
+  }
+]
